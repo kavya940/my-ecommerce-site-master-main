@@ -1,0 +1,57 @@
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem;
+    margin-top: 12rem;
+    position: relative;
+  }
+  .subscribe {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .subscribe input {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+  }
+  .subscribe button {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  .links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  .links .column {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  .links .column h4 {
+    margin-top: 1rem;
+  }
+  .links .column a {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  .links .column a:hover {
+    color: #00aaff;
+  }
+  .social-media {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .social-media a {
+    margin: 0 1rem;
+  }
+  .payment-methods {
+    text-align: center;
+    margin-bottom: 2rem;
+  }

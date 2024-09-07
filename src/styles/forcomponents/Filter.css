@@ -1,0 +1,27 @@
+.product-list-container {
+    flex: 1;
+  }
+  .product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .sort-dropdown select {
+    padding: 5px 8px;
+    font-size: 1rem;
+  }
+  .filter-heading {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  .filter-options input {
+    margin-right: 10px;
+    flex: flex;
+  }
+  .filter-sidebar input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  .filter-options {
+    margin-bottom: 20px;
+}
