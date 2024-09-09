@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 export default function Cart({ cartItems, updateTotalCartItems, onClose, removeFromCart }) {
   const [localCartItems, setLocalCartItems] = useState(cartItems);
@@ -39,7 +40,14 @@ export default function Cart({ cartItems, updateTotalCartItems, onClose, removeF
         <div className="cart-items">
           {localCartItems.map(item => (
             <div key={item.id} className="cart-item">
-              <img src={item.image} alt={item.title} className="cart-item-image" />
+              <div className="cart-item-image">
+                <Image
+                  src={item.image}
+                  alt={item.title}
+                  width={100} // Adjust the width as needed
+                  height={100} // Adjust the height as needed
+                />
+              </div>
               <div className="cart-item-details">
                 <p className="cart-item-title">{item.title}</p>
                 <p className="cart-item-price">${item.price}</p>
